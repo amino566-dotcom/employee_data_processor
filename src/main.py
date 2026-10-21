@@ -1,8 +1,10 @@
 from pathlib import Path
 import csv
 
-INPUT_FILE = Path("employees.csv")
-OUTPUT_FILE = Path("processed_employees.csv")
+BASE_DIR = Path(__file__).resolve().parent.parent
+
+INPUT_FILE = BASE_DIR / "data" / "employees.csv"
+OUTPUT_FILE = BASE_DIR / "data" / "processed_employees.csv"
 
 sample_employees = [
     {"id": "1", "name": "Ali", "department": "IT", "salary": "5000"},

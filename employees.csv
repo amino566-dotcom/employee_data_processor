@@ -1,0 +1,11 @@
+id,name,department,salary
+1,Ali,IT,5000
+2,Sara,HR,6000
+3,Youssef,IT,7000
+4,Mariam,Sales,4500
+5,Amine,IT,8000
+6,Karim,HR,invalid
+7,Nadia,Sales,
+3,Youssef,IT,7000
+8,  Salma  , it ,6500
+9,Omar,HR,-500
